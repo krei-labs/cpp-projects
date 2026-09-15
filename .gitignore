@@ -1,0 +1,49 @@
+@"
+# ==============================
+# C++ Projects Git Ignore
+# ==============================
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# C/C++ build artifacts
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Build directories
+build/
+bin/
+dist/
+
+# Debug / temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Environment / local files
+.env
+.env.*
+!.env.example
+"@ | Set-Content .gitignore
