@@ -1,4 +1,4 @@
-<h1 align="center">C++ Projects Showcase</h1>
+<h1 align="center">C++ Projects Showcase</h1> 
 
 <p align="center">
   A structured collection of standalone C++ mini-projects, organized by topic — from basic syntax through data structures and algorithms — each one self-contained, documented, and ready to compile.
